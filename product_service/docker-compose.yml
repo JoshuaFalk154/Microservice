@@ -1,0 +1,12 @@
+services:
+  product-postgres:
+    container_name: product-postgres
+    image: postgres:16.2
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: product-service
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
