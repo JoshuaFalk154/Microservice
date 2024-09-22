@@ -21,7 +21,6 @@ public class ProductService {
     public Product createProductAsOwner(ProductPost productPost, String userId) {
         // TODO
         // check if user exists
-        // check if user owner
         return createProduct(productPost, userId);
     }
 
@@ -41,7 +40,26 @@ public class ProductService {
                 .SKU(productPost.SKU())
                 .build();
 
+        // TODO
+        // EVENT product-created
+
         return productRepository.save(product);
     }
 
+    public void deleteProductAsOwner(String SKU, String userId) {
+        // TODO
+        // check if user exists
+        // check if user owner
+
+        deleteProduct(SKU);
+    }
+
+    public void deleteProduct(String SKU) {
+        Product product = productRepository.findBySKU(SKU)
+                .orElseThrow(() -> new ResourceNotFoundException("Product with SKU " + SKU + " does not exist"));
+
+        // TODO
+        // EVENT product-deleted
+        productRepository.delete(product);
+    }
 }

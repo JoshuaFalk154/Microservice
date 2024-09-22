@@ -6,29 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab97c59-6884-4b6d-9a81-1f48318bedc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/java/com/microservice/api_gateway/filter/UserHeaderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/java/com/microservice/api_gateway/filter/UserHeaderFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/postgres_data/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/1/pg_internal.init" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24676" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24677" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24680" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24681" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24682" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24684" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24686" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24687" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24691" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24692" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24694" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2579" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_fsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_vm" afterDir="false" />
@@ -48,20 +45,16 @@
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2703" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2703" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2704" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2840" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2840" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2840_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2840_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2841" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2841" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/3455" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/5002" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/5002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/5/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/5/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/global/2396" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/global/2396" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/global/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/controller/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/test/java/com/product_service/product_service/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/test/java/com/product_service/product_service/ProductControllerServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/repos/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/repos/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ApiGatewayApplication.executor": "Run",
-    "Application.ProductServiceApplication.executor": "Debug",
+    "Application.ProductServiceApplication.executor": "Run",
     "Docker.keycloak: Compose Deployment.executor": "Run",
     "Docker.product_service: Compose Deployment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -134,15 +127,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/controller/ProductController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((RequestFacade)request).request" custom="org.apache.catalina.connector.RequestFacade" />
