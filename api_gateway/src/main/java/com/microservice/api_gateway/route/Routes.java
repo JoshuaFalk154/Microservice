@@ -29,6 +29,7 @@ public class Routes {
     public RouterFunction<ServerResponse> productServiceRoute() {
         return route("product_service")
                 .route(path("/api/v1/product"), http(productServiceUrl))
+                .route(path("/api/v1/product/*"), http(productServiceUrl))
                 .before(userHeaderFilter.addUserHeader())
                 .build();
     }

@@ -19,10 +19,10 @@ public class UserHeaderFilter {
         return request -> {
             Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
             if (authentication != null && authentication.getPrincipal() instanceof Jwt jwt) {
-                String email = jwt.getClaimAsString("email");
+                String id = jwt.getClaimAsString("sub");
 
                 Consumer<HttpHeaders> headers = httpHeaders -> {
-                    httpHeaders.add("email", email);
+                    httpHeaders.add("id", id);
                 };
 
                 return ServerRequest.from(request)
