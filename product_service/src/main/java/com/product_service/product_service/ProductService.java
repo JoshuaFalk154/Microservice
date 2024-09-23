@@ -2,6 +2,9 @@ package com.product_service.product_service;
 
 import com.product_service.product_service.dto.ProductPost;
 import com.product_service.product_service.entities.Product;
+import com.product_service.product_service.event.Binding;
+import com.product_service.product_service.event.EventProducer;
+import com.product_service.product_service.event.MyEvent;
 import com.product_service.product_service.exceptions.ResourceNotFoundException;
 import com.product_service.product_service.repos.ProductRepository;
 import lombok.RequiredArgsConstructor;
@@ -12,6 +15,7 @@ import org.springframework.stereotype.Service;
 public class ProductService {
 
     private final ProductRepository productRepository;
+    private final EventProducer eventProducer;
 
     public Product getProductBySKU(String SKU) {
         return productRepository.findBySKU(SKU)
@@ -40,10 +44,14 @@ public class ProductService {
                 .SKU(productPost.SKU())
                 .build();
 
-        // TODO
-        // EVENT product-created
+        Product product1 = productRepository.save(product);
+        MyEvent event = MyEvent.builder()
+                .eventType(MyEvent.Type.CREATE)
+                .data(product)
+                .build();
+        eventProducer.sendEvent(event, Binding.PRODUCT_CREATED);
 
-        return productRepository.save(product);
+        return product1;
     }
 
     public void deleteProductAsOwner(String SKU, String userId) {
@@ -58,8 +66,12 @@ public class ProductService {
         Product product = productRepository.findBySKU(SKU)
                 .orElseThrow(() -> new ResourceNotFoundException("Product with SKU " + SKU + " does not exist"));
 
-        // TODO
-        // EVENT product-deleted
+        MyEvent event = MyEvent.builder()
+                .eventType(MyEvent.Type.DELETE)
+                .data(product)
+                .build();
+        eventProducer.sendEvent(event, Binding.PRODUCT_DELETED);
+
         productRepository.delete(product);
     }
 }
