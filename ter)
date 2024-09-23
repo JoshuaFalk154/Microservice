@@ -1,0 +1,126 @@
+warning: in the working copy of '.idea/workspace.xml', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex b3a41f7..8f128c2 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -6,24 +6,18 @@[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="3ab97c59-6884-4b6d-9a81-1f48318bedc0" name="Changes" comment="">[m
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/kafka/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/docker-compose.yml" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/kafka/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/global/pg_control" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/kafka/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/kafka/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/postmaster.pid" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_vm" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_fsm" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_vm" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2579" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_fsm" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2619_vm" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2658" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2659" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2662" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2662" afterDir="false" />[m
+[36m@@ -36,37 +30,23 @@[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2674" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2674" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2678" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2678" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2679" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2679" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2696" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2696" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2703" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2703" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2704" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2840" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2840" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2841" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2841" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32799" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32800" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32803" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32804" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32805" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32807" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32809" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32810" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32813" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32814" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32815" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32817" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32819" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32820" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32823" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32824" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32825" beforeDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32827" beforeDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32850" beforeDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32851" beforeDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32854" beforeDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32855" beforeDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32856" beforeDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32858" beforeDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32860" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32860" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32861" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32861" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32866" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32866" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32868" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/32868" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/3455" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/5002" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/5002" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/ProductService.java" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/event/EventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/event/EventProducer.java" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" afterDir="false" />[m
+     </list>[m
+     <option name="SHOW_DIALOG" value="false" />[m
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
+[1mdiff --git a/kafka/postgres_data/global/pg_control b/kafka/postgres_data/global/pg_control[m
+[1mindex 1bf9e09..a86d79b 100644[m
+Binary files a/kafka/postgres_data/global/pg_control and b/kafka/postgres_data/global/pg_control differ
+[1mdiff --git a/kafka/postgres_data/pg_wal/000000010000000000000001 b/kafka/postgres_data/pg_wal/000000010000000000000001[m
+[1mindex c13c00d..f538f2f 100644[m
+Binary files a/kafka/postgres_data/pg_wal/000000010000000000000001 and b/kafka/postgres_data/pg_wal/000000010000000000000001 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/1247 b/product_service/postgres_data/base/16384/1247[m
+[1mindex 71a4b72..fba1082 100644[m
+Binary files a/product_service/postgres_data/base/16384/1247 and b/product_service/postgres_data/base/16384/1247 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/1249 b/product_service/postgres_data/base/16384/1249[m
+[1mindex 1b6689f..5ae7f00 100644[m
+Binary files a/product_service/postgres_data/base/16384/1249 and b/product_service/postgres_data/base/16384/1249 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/1249_vm b/product_service/postgres_data/base/16384/1249_vm[m
+[1mindex 6d8472e..8b5bea0 100644[m
+Binary files a/product_service/postgres_data/base/16384/1249_vm and b/product_service/postgres_data/base/16384/1249_vm differ
+[1mdiff --git a/product_service/postgres_data/base/16384/1259 b/product_service/postgres_data/base/16384/1259[m
+[1mindex b8075d7..a3ab3ce 100644[m
+Binary files a/product_service/postgres_data/base/16384/1259 and b/product_service/postgres_data/base/16384/1259 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/1259_vm b/product_service/postgres_data/base/16384/1259_vm[m
+[1mindex 861fd6a..3c8d5b2 100644[m
+Binary files a/product_service/postgres_data/base/16384/1259_vm and b/product_service/postgres_data/base/16384/1259_vm differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2224 b/product_service/postgres_data/base/16384/2224[m
+[1mindex ac1d3cb..a4a0406 100644[m
+Binary files a/product_service/postgres_data/base/16384/2224 and b/product_service/postgres_data/base/16384/2224 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2579 b/product_service/postgres_data/base/16384/2579[m
+[1mindex 55b3726..1af107a 100644[m
+Binary files a/product_service/postgres_data/base/16384/2579 and b/product_service/postgres_data/base/16384/2579 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2606 b/product_service/postgres_data/base/16384/2606[m
+[1mindex 6400136..5bb0d2a 100644[m
+Binary files a/product_service/postgres_data/base/16384/2606 and b/product_service/postgres_data/base/16384/2606 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2608 b/product_service/postgres_data/base/16384/2608[m
+[1mindex f3309e8..5563002 100644[m
+Binary files a/product_service/postgres_data/base/16384/2608 and b/product_service/postgres_data/base/16384/2608 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2610 b/product_service/postgres_data/base/16384/2610[m
+[1mindex 9490e7b..6025ca5 100644[m
+Binary files a/product_service/postgres_data/base/16384/2610 and b/product_service/postgres_data/base/16384/2610 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2658 b/product_service/postgres_data/base/16384/2658[m
+[1mindex 9ea9adb..d0e41bd 100644[m
+Binary files a/product_service/postgres_data/base/16384/2658 and b/product_service/postgres_data/base/16384/2658 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2659 b/product_service/postgres_data/base/16384/2659[m
+[1mindex a69795a..02b0278 100644[m
+Binary files a/product_service/postgres_data/base/16384/2659 and b/product_service/postgres_data/base/16384/2659 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2662 b/product_service/postgres_data/base/16384/2662[m
+[1mindex 46324ef..9e9705a 100644[m
+Binary files a/product_service/postgres_data/base/16384/2662 and b/product_service/postgres_data/base/16384/2662 differ
+[1mdiff --git a/product_service/postgres_data/base/16384/2663 b/product_service/postgres_data/base/16384/2663[m
+[1mindex b519f42..704fbf1 100644[m
+Binary files a/product_service/postgres_data/base/16384/2663 and b/product_service/po
