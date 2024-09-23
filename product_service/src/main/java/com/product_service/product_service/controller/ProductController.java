@@ -1,15 +1,10 @@
 package com.product_service.product_service.controller;
 
-import com.product_service.product_service.ProductService;
+import com.product_service.product_service.service.ProductService;
 import com.product_service.product_service.dto.ProductPost;
 import com.product_service.product_service.dto.ProductResponse;
 import com.product_service.product_service.entities.Product;
-import com.product_service.product_service.event.Binding;
-import com.product_service.product_service.event.EventProducer;
-import com.product_service.product_service.event.MyEvent;
-import com.product_service.product_service.repos.ProductRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
