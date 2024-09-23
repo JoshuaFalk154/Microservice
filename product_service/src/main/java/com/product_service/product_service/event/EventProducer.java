@@ -1,8 +1,7 @@
 package com.product_service.product_service.event;
 
-import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.cloud.stream.function.StreamBridge;
-import org.springframework.kafka.support.KafkaHeaders;
+import org.springframework.messaging.Message;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Component;
 
@@ -17,7 +16,11 @@ public class EventProducer {
         this.streamBridge = streamBridge;
     }
 
-    public void sendEvent(MyEvent event, Binding binding) {
-        streamBridge.send(binding.value, event);
+    public void sendMessage(MyEvent event, Binding binding) {
+        Message message = MessageBuilder
+                .withPayload(event)
+                .setHeader("partitionKey", event.getKey())
+                .build();
+        streamBridge.send(binding.value, message);
     }
 }

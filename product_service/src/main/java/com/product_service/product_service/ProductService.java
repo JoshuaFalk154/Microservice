@@ -46,10 +46,11 @@ public class ProductService {
 
         Product product1 = productRepository.save(product);
         MyEvent event = MyEvent.builder()
+                .key(product1.getId())
                 .eventType(MyEvent.Type.CREATE)
-                .data(product)
+                .data(product1)
                 .build();
-        eventProducer.sendEvent(event, Binding.PRODUCT_CREATED);
+        eventProducer.sendMessage(event, Binding.PRODUCT_CREATED);
 
         return product1;
     }
@@ -67,10 +68,11 @@ public class ProductService {
                 .orElseThrow(() -> new ResourceNotFoundException("Product with SKU " + SKU + " does not exist"));
 
         MyEvent event = MyEvent.builder()
+                .key(product.getId())
                 .eventType(MyEvent.Type.DELETE)
                 .data(product)
                 .build();
-        eventProducer.sendEvent(event, Binding.PRODUCT_DELETED);
+        eventProducer.sendMessage(event, Binding.PRODUCT_DELETED);
 
         productRepository.delete(product);
     }
