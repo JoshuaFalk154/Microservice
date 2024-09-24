@@ -21,7 +21,6 @@ public class Listen {
     private final ProductService productService;
 
 
-
     @Bean
     public Consumer<Message<MyEvent<Long, ProductEvent>>> messageProcessor() {
         return message -> {
@@ -48,7 +47,7 @@ public class Listen {
                             ", expected CREATE or DELETE event";
                     throw new RuntimeException(errorMessage);
             }
-            };
+        };
 
     }
 }
