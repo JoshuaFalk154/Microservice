@@ -1,4 +1,4 @@
-package java.com.microservice.inventory;
+package com.microservice.inventory;
 
 import java.util.Date;
 

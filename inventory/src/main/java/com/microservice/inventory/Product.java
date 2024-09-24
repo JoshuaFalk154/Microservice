@@ -1,7 +1,7 @@
-package java.com.microservice.inventory;
+package com.microservice.inventory;
 
 import jakarta.persistence.*;
-import lombok.Builder;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -9,6 +9,10 @@ import java.util.Date;
 
 @Entity
 @Builder
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
 
     @Id

@@ -1,9 +1,6 @@
-package java.com.microservice.inventory;
+package com.microservice.inventory;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.ZonedDateTime;
 
@@ -11,6 +8,7 @@ import java.time.ZonedDateTime;
 @Setter
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 public class MyEvent<K, T> {
     public enum Type {CREATE, DELETE}
     private Type eventType;
