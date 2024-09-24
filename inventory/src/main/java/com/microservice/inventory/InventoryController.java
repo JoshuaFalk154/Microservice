@@ -1,4 +1,4 @@
-package com.microservice.inventory;
+package java.com.microservice.inventory;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

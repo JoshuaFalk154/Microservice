@@ -1,4 +1,4 @@
-package com.microservice.inventory;
+package java.com.microservice.inventory;
 
 import jakarta.persistence.*;
 import lombok.Builder;
