@@ -26,6 +26,9 @@ public class Routes {
     @Value("${inventoryservice.route}")
     private String inventoryServiceUrl;
 
+    @Value("${orderservice.route}")
+    private String orderServiceUrl;
+
     private final UserHeaderFilter userHeaderFilter;
 
     @Bean
@@ -42,6 +45,15 @@ public class Routes {
         return route("inventory_service")
                 .route(path("/api/v1/inventory"), http(inventoryServiceUrl))
                 .route(path("/api/v1/inventory/*"), http(inventoryServiceUrl))
+                .before(userHeaderFilter.addUserHeader())
+                .build();
+    }
+
+    @Bean
+    public RouterFunction<ServerResponse> orderServiceRoute() {
+        return route("order_service")
+                .route(path("/api/v1/order"), http(orderServiceUrl))
+                .route(path("/api/v1/order/*"), http(orderServiceUrl))
                 .before(userHeaderFilter.addUserHeader())
                 .build();
     }

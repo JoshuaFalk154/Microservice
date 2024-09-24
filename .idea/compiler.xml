@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api_gateway" />
         <module name="inventory" />
         <module name="product_service" />
-        <module name="api_gateway" />
+        <module name="order" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api_gateway" options="-parameters" />
       <module name="inventory" options="-parameters" />
+      <module name="order" options="-parameters" />
       <module name="product_service" options="-parameters" />
     </option>
   </component>
