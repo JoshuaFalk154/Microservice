@@ -1,5 +1,6 @@
 package com.product_service.product_service.service;
 
+import com.product_service.product_service.dto.ProductEvent;
 import com.product_service.product_service.dto.ProductPost;
 import com.product_service.product_service.entities.Product;
 import com.product_service.product_service.exceptions.ResourceNotFoundException;
@@ -52,9 +53,7 @@ public class ProductService {
     @Transactional
     public void deleteProduct(String SKU) {
         Product product = getProductBySKU(SKU);
-
         eventProducerService.sendMessageProductDeleted(product);
-
         productRepository.delete(product);
     }
 
@@ -83,4 +82,6 @@ public class ProductService {
                     throw new RuntimeException("Product with SKU already exists");
                 });
     }
+
+
 }

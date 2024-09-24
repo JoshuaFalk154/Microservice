@@ -2,6 +2,10 @@ package com.product_service.product_service.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+import java.util.Date;
 
 
 @Entity
@@ -31,4 +35,10 @@ public class Product {
 
     @Column(unique = true)
     String SKU;
+
+    @CreationTimestamp
+    Date createdAt;
+
+    @UpdateTimestamp
+    Date updatedAt;
 }
