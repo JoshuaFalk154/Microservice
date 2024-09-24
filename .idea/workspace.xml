@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab97c59-6884-4b6d-9a81-1f48318bedc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/order.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/microservice/order/OrderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/microservice/order/TestOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/microservice/order/TestcontainersConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/java/com/microservice/api_gateway/route/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/java/com/microservice/api_gateway/route/Routes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
