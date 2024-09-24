@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab97c59-6884-4b6d-9a81-1f48318bedc0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2610" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/40971" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/40972" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/40975" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/40976" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/40977" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/40979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000002" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/java/com/microservice/api_gateway/route/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/java/com/microservice/api_gateway/route/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/java/com/microservice/inventory/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/java/com/microservice/inventory/controller/InventoryController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
