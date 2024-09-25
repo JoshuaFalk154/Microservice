@@ -9,6 +9,7 @@ import java.util.Date;
 
 @Entity
 @RequiredArgsConstructor
+@Table(name = "order-table")
 public class Order {
 
     @Id
@@ -20,15 +21,12 @@ public class Order {
     private Long user_id;
 
     @Column(nullable = false)
-
     private Long product_id;
 
     @Column(nullable = false)
-
     private Long quantity;
 
-    @Column(nullable = false)
-
+    //@Column(nullable = false)
     private Double totalPrice;
 
     @CreationTimestamp

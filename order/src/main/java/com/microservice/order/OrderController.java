@@ -10,9 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class OrderController {
 
+    private final MyRestClient myRestClient;
+
     @GetMapping
-    public String testConnection() {
-        return "hello from oder";
+    public ProductResponse testConnection() {
+        return  myRestClient.getProductFromProductService("E42afvfbvaWC");
     }
 
 }
