@@ -4,13 +4,13 @@ import com.microservice.inventory.Product;
 import com.microservice.inventory.ProductService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.Message;
 
 import java.util.function.Consumer;
+
+
 
 @Slf4j
 @Configuration
@@ -19,13 +19,9 @@ public class Listen {
 
     private final ProductService productService;
 
-    // TODO
-    // handle retries etc.
-
-
 
     @Bean
-    public Consumer<Message<MyEvent<Long, ProductEvent>>> messageProcessor() {
+    public Consumer<Message<MyEvent<Long, ProductEvent>>> productMessageProcessor() {
         return message -> {
             log.info("received message {} in message processor method", message);
 
@@ -73,4 +69,6 @@ public class Listen {
             }
         };
     }
+
+
 }

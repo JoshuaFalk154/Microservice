@@ -70,6 +70,7 @@ public class ProductService {
         Product product = getProductOrThrow(SKU);
 
         product.setStock(product.getStock() - stock);
+        productRepository.save(product);
 
     }
 }
