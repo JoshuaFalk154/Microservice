@@ -9,12 +9,11 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
     private final InventoryServiceClient inventoryServiceClient;
-    private final  ProductServiceClient productServiceClient;
-
+    private final ProductServiceClient productServiceClient;
+    private final UserService userService;
 
     public Order placeOrder(OrderPlaceDTO order) {
-        // TODO
-        // check user exists
+        userService.checkUserExistence(order.user_id());
 
         Double productPrice = productServiceClient.getProductFromProductService(order.SKU()).price();
         Long stock = inventoryServiceClient.getProductFromInventoryService(order.SKU()).stock();
@@ -45,4 +44,6 @@ public class OrderService {
                 .updatedAt(order.getUpdatedAt())
                 .build();
     }
+
+
 }
