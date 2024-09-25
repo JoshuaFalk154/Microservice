@@ -37,7 +37,7 @@ public class ProductService {
 
     public Product getProductOrThrow(String SKU) {
         return productRepository.findBySKU(SKU)
-                .orElseThrow(() -> new RuntimeException("Product with SKU " + SKU + " already exists"));
+                .orElseThrow(() -> new RuntimeException("Product with SKU " + SKU + " does not exist"));
 
     }
 
@@ -63,6 +63,13 @@ public class ProductService {
         }
 
         return productRepository.save(product);
+
+    }
+
+    public void decreaseProductStock(String SKU, Long stock) {
+        Product product = getProductOrThrow(SKU);
+
+        product.setStock(product.getStock() - stock);
 
     }
 }
