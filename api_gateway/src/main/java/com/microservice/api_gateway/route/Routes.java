@@ -35,7 +35,7 @@ public class Routes {
     public RouterFunction<ServerResponse> productServiceRoute() {
         return route("product_service")
                 .route(path("/api/v1/product"), http(productServiceUrl))
-                .route(path("/api/v1/product/*"), http(productServiceUrl))
+                .route(path("/api/v1/product/**"), http(productServiceUrl))
                 .before(userHeaderFilter.addUserHeader())
                 .build();
     }
@@ -44,7 +44,7 @@ public class Routes {
     public RouterFunction<ServerResponse> inventoryServiceRoute() {
         return route("inventory_service")
                 .route(path("/api/v1/inventory"), http(inventoryServiceUrl))
-                .route(path("/api/v1/inventory/*"), http(inventoryServiceUrl))
+                .route(path("/api/v1/inventory/**"), http(inventoryServiceUrl))
                 .before(userHeaderFilter.addUserHeader())
                 .build();
     }
@@ -53,7 +53,7 @@ public class Routes {
     public RouterFunction<ServerResponse> orderServiceRoute() {
         return route("order_service")
                 .route(path("/api/v1/order"), http(orderServiceUrl))
-                .route(path("/api/v1/order/*"), http(orderServiceUrl))
+                .route(path("/api/v1/order/**"), http(orderServiceUrl))
                 .before(userHeaderFilter.addUserHeader())
                 .build();
     }

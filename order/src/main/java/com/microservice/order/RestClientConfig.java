@@ -1,6 +1,7 @@
 package com.microservice.order;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.ClientHttpRequestFactories;
 import org.springframework.boot.web.client.ClientHttpRequestFactorySettings;
@@ -20,17 +21,30 @@ public class RestClientConfig {
     @Value("${productservice.route}")
     private String productServiceUrl;
 
+    @Value("${inventoryservice.route}")
+    private String inventoryServiceUrl;
+
 
     @Bean
-    public MyRestClient restInterface() {
+    public ProductServiceClient restInterface() {
         RestClient restClient = RestClient.builder()
                 .baseUrl(productServiceUrl)
                 .requestFactory(getClientRequestFactory())
                 .build();
         RestClientAdapter restClientAdapter = RestClientAdapter.create(restClient);
         HttpServiceProxyFactory httpServiceProxyFactory = HttpServiceProxyFactory.builderFor(restClientAdapter).build();
-        return httpServiceProxyFactory.createClient(MyRestClient.class);
+        return httpServiceProxyFactory.createClient(ProductServiceClient.class);
+    }
 
+    @Bean
+    public InventoryServiceClient restInterface2() {
+        RestClient restClient = RestClient.builder()
+                .baseUrl(inventoryServiceUrl)
+                .requestFactory(getClientRequestFactory())
+                .build();
+        RestClientAdapter restClientAdapter = RestClientAdapter.create(restClient);
+        HttpServiceProxyFactory httpServiceProxyFactory = HttpServiceProxyFactory.builderFor(restClientAdapter).build();
+        return httpServiceProxyFactory.createClient(InventoryServiceClient.class);
     }
 
     private ClientHttpRequestFactory getClientRequestFactory() {

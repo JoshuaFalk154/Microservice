@@ -1,20 +1,23 @@
 package com.microservice.order;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/order")
 @RequiredArgsConstructor
 public class OrderController {
 
-    private final MyRestClient myRestClient;
+    private final OrderService orderService;
 
-    @GetMapping
-    public ProductResponse testConnection() {
-        return  myRestClient.getProductFromProductService("E42afvfbvaWC");
+    @PostMapping
+    public OrderResponse placeOrder(@RequestBody OrderPlaceDTO order) {
+        Order orderResponse = orderService.placeOrder(order);
+
+        return orderService.orderToOrderResponse(orderResponse);
     }
+
 
 }

@@ -12,7 +12,7 @@ public class InventoryController {
     private final Mapper mapper;
 
     @GetMapping("/product/{SKU}")
-    public ProductResponse test(String SKU) {
+    public ProductResponse test(@PathVariable String SKU) {
         Product product = productService.getProductOrThrow(SKU);
 
         return mapper.productToProductResponse(product);

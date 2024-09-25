@@ -1,15 +1,19 @@
 package com.microservice.order;
 
 import jakarta.persistence.*;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.util.Date;
 
 @Entity
-@RequiredArgsConstructor
+@Builder
 @Table(name = "order-table")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Order {
 
     @Id
@@ -18,10 +22,10 @@ public class Order {
     private Long id;
 
     @Column(nullable = false)
-    private Long user_id;
+    private String user_id;
 
     @Column(nullable = false)
-    private Long product_id;
+    private String productSKU;
 
     @Column(nullable = false)
     private Long quantity;
