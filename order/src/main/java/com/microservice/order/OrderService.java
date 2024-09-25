@@ -1,5 +1,10 @@
 package com.microservice.order;
 
+import com.microservice.order.dto.OrderEvent;
+import com.microservice.order.event.Binding;
+import com.microservice.order.event.EventProducer;
+import com.microservice.order.event.EventProducerService;
+import com.microservice.order.event.MyEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +16,7 @@ public class OrderService {
     private final InventoryServiceClient inventoryServiceClient;
     private final ProductServiceClient productServiceClient;
     private final UserService userService;
+    private final EventProducerService eventProducerService;
 
     public Order placeOrder(OrderPlaceDTO order) {
         userService.checkUserExistence(order.user_id());
@@ -30,7 +36,10 @@ public class OrderService {
                 .totalPrice(totalPrice)
                 .build();
 
-        return orderRepository.save(orderToSave);
+        Order savedOrder = orderRepository.save(orderToSave);
+        eventProducerService.sendMessageOrderPlaced(savedOrder);
+
+        return savedOrder;
     }
 
     public OrderResponse orderToOrderResponse(Order order) {
@@ -44,6 +53,4 @@ public class OrderService {
                 .updatedAt(order.getUpdatedAt())
                 .build();
     }
-
-
 }
