@@ -46,4 +46,23 @@ public class ProductService {
 
     }
 
+    // TODO check user exists method
+
+
+    public Product updateProductAsOwner(ProductUpdate productUpdate, String SKU, String user_id) {
+        // TODO call check user exists method
+
+        Product product = getProductOrThrow(SKU);
+
+        if (productUpdate.getStock() != null) {
+            product.setStock(productUpdate.getStock());
+        }
+
+        if (productUpdate.getLocation() != null) {
+            product.setLocation(productUpdate.getLocation());
+        }
+
+        return productRepository.save(product);
+
+    }
 }
