@@ -6,28 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab97c59-6884-4b6d-9a81-1f48318bedc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/1/pg_internal.init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1247" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1249" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1249_fsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/1259_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16405" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16406" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16409" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16410" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16411" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16413" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16414" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16417" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16418" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/16419" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2224" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/24593" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/24594" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/24597" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/24598" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/24599" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2579" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2606" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2608" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2610" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2610_vm" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2610_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2658" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2659" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2662" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2662" afterDir="false" />
@@ -44,29 +37,25 @@
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/2704" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/3455" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/5002" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/5002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/base/16384/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/base/5/pg_internal.init" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/global/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory/postgres_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/postgres_data/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/postgres_data/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/postgres_data/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/1/pg_internal.init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/1247" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/1249" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/1249_fsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/1259" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/1259_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2224" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/24593" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/24594" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/24597" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/24598" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/24599" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2579" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2606" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2608" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2610" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2610_vm" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2610_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2658" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2659" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2662" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2662" afterDir="false" />
@@ -83,28 +72,23 @@
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/2704" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/3455" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/5002" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/5002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/base/16384/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/postgres_data/base/5/pg_internal.init" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/postgres_data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/global/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/postgres_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/order/postgres_data/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/1/pg_internal.init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/InventoryServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/InventoryServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/ProductServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/ProductServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/microservice/order/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1247" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1249_fsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/1259_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/16429" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/16430" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/16433" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/16434" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/16435" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/16437" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2224" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24597" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24598" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24601" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24602" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24603" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/24605" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2579" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2606" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2608" afterDir="false" />
@@ -125,15 +109,9 @@
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/2704" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/3455" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/5002" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/5002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/base/16384/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/base/5/pg_internal.init" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/global/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_wal/000000010000000000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/postgres_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/postgres_data/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/product_service/product_service/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
